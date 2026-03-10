@@ -5,15 +5,26 @@ A simple Streamlit app showing the GDP of different countries in the world.
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://gdp-dashboard-template.streamlit.app/)
 
 ### How to run it on your own machine
+# Stock Analysis Dashboard
 
-1. Install the requirements
+A Python dashboard to analyze stock trends using technical indicators.
 
-   ```
-   $ pip install -r requirements.txt
-   ```
+## Features
+- Fetch stock data using yfinance
+- Candlestick chart visualization
+- SMA and EMA indicators
+- RSI indicator
+- Performance metrics
+- CSV data export
 
-2. Run the app
+## Technologies Used
+- Python
+- Streamlit
+- Plotly
+- Pandas
+- yfinance
 
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+## Run Project
+
+pip install -r requirements.txt
+streamlit run stock.py
